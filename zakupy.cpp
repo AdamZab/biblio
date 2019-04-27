@@ -17,7 +17,7 @@ int main()
     
     
     
-   /* cout << "at:" << endl;
+   cout << "at:" << endl;
     
     for (int i=0; i<8; ++i)
         cout << lista.at(i) << endl;
@@ -25,7 +25,7 @@ int main()
     cout << "[]:" << endl;
 
     for (int i=0; i<8; ++i)
-        cout << lista[i] << endl;*/
+        cout << lista[i] << endl;
     
     cout << "1 dla rosnacej, 2 dla malejacej" << endl;
     
@@ -60,7 +60,7 @@ int main()
     cout << "nowy element" << endl;
     cin >> c;
 
-    for_each(lista.begin(), lista.end(), []);
+    //for_each(lista.begin(), lista.end(), []);
     
 return 0;    
 }

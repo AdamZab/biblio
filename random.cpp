@@ -30,7 +30,7 @@ int main (int argc, char ** argv)
     
     sort(x.begin(), x.end());
 
-    cout << x << endl;
+    //cout << x << endl;
     
 
     return 0;
