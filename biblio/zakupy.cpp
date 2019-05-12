@@ -2,6 +2,7 @@
 #include <array>
 #include <string>
 #include <algorithm>
+#include <vector>
 
 using namespace std;
 
@@ -11,7 +12,7 @@ using namespace std;
 
 int main()
 {
-    array<string,8> lista{"mak", "Mar", "qwe", "Tyu", "Mot", "gfs", "gdu", "poi"};
+    vector<string> lista{"mak", "Mar", "qwe", "Tyu", "Mot", "gfs", "gdu", "poi"};
     int a;
     string b,c;
     
@@ -22,10 +23,24 @@ int main()
     for (int i=0; i<8; ++i)
         cout << lista.at(i) << endl;
     
-    cout << "[]:" << endl;
+    //vector<string>::iterator it;
+
+    //it = lista.begin();
+    //it = lista.insert ( it , "add" );
+
+  lista.insert (int, 1, 5);
+  
+  cout << endl << "po dodaniu:" << endl;
+  
+  for (int i=0; i<8; ++i)
+        cout << lista.at(i) << endl;
+    
+    /*cout << "[]:" << endl;
 
     for (int i=0; i<8; ++i)
         cout << lista[i] << endl;
+    
+    
     
     cout << "1 dla rosnacej, 2 dla malejacej" << endl;
     
@@ -58,7 +73,7 @@ int main()
     cin >> b;
     
     cout << "nowy element" << endl;
-    cin >> c;
+    cin >> c;*/
 
     //for_each(lista.begin(), lista.end(), []);
     
