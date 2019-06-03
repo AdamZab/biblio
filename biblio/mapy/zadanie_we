@@ -1,0 +1,22 @@
+#include <iostream>
+#include <string>
+#include <vector>
+#include <map>
+
+using namespace std;
+
+struct Pet
+{string name;
+Pet(const string& s) : name(s){}
+//Pet() = default;
+//Pet() {};
+};
+
+int main()
+{
+ map pets = map(integer -> Pet);
+ pets.push_back(0, Pet("Pies Azor");
+ pets.push_back(1, Pet("Kot miauczek");
+ print_all_animals(pets);
+
+}
